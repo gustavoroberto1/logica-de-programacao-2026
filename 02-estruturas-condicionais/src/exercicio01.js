@@ -9,3 +9,5 @@ if(senhaUsuario === senhaPadrao){
     console.log("ACESSO NEGADO!!!")
 }
 
+console.log("BLABLBALBA");
+
