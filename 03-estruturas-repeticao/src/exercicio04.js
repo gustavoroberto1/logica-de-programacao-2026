@@ -2,7 +2,7 @@ import leia from 'readline-sync';
 
 var menorValor, maiorValor;
 
-for (var contador = 1; contador <= 15; contador++) {
+for (var contador = 1; contador <= 5; contador++) {
     var numeroDigitado = leia.questionInt("DIGITE UM NUMERO " + contador + ": ");
 
     if (contador === 1) {
