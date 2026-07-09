@@ -3,7 +3,7 @@ import leia from 'readline-sync';
 var somaImpares = 0;
 var multPares = 1;
 
-for (var contador = 0; contador < 6; contador++) {
+for (var contador = 0; contador < 600; contador += 100) {
     var numero = leia.questionInt("DIGITE UM NUMERO " + contador + ": ");
 
     if (numero % 2 === 0) {
